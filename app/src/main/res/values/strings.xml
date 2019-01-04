@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Baking</string>
+    <string name="ingredients">Recipe ingredients</string>
+    <string name="steps">Recipe steps</string>
+    <string name="title_activity_recipe_info">recipeInfo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="appwidget_text">EXAMPLE</string>
+</resources>

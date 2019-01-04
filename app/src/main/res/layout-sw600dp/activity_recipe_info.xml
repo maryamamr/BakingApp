@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/two_pane_linerlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <FrameLayout
+            android:id="@+id/recipe_container"
+            android:layout_width="250dp"
+            android:scaleType="centerInside"
+            android:layout_height="match_parent" >
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/recipe_container2"
+            android:scaleType="centerInside"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="25dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
